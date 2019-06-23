@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'PT sans' , sans-serif;
+    font-size: 16px; 
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Sans', serif;
+    padding-bottom: 1em;
+}
+
+h1{font-size: 2.4rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.8rem;}
+h4{font-size: 1.6rem;}
+h5{font-size: 1.4rem;}
+h6{font-size: 1.2rem;}
+
+p, ul, ol {
+    padding-bottom: 1rem;
+}
+
+.topHeader {
+    background-color: rgb(240, 233, 233);
+    height: 80px;
+}
+  
+.header-title {
+    display: inline-block;
+    font-size: 38px;
+    color: rgb(236, 75, 35);
+    font-family: 'Pacifico', serif;
+    width: 55%;
+    padding: 0;
+    font: italic;
+}
+.topHeader nav {
+    display: inline-block; 
+    margin-bottom: 3em;
+    width: 600px;
+    align-self: stretch;
+}
+.topHeader ul li {
+    display: inline-block;
+    background-color: rgb(236, 75, 35);
+    padding: 0.4rem;
+    border-radius: 6px;
+    width: 6em;
+    text-align: center;
+}
+.topHeader ul li:not(:last-child){
+    margin-right: 1rem;
+}
+.topHeader ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerImage {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(./img/header-flowers.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    text-align: center;
+}
+
+.headerImage h1{
+    display: inline-block;
+    padding: 12rem 0 0.5rem 0;
+    color: white;
+    font-family: 'PT serif', serif;
+    text-shadow: 2px 3px 1px #333;
+    font-size: 3.5rem;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.headerImage p{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 1rem 10%;
+    max-width: 1000px;
+    font-size: 1.2rem;
+    font-family: 'PT serif', serif;
+}
+
+section.takeAction {
+    text-align: center;
+    background-color: rgb(231, 122, 95);
+    height: 300px;
+}
+.takeAction h2{
+    display: block;
+    font-family: 'PT serif', serif;
+    color: white;
+    font-size: 2em;
+    padding: 1.5em 0 0.5em 0;
+}
+.takeAction p{
+    display: block;
+    align-self: center;
+    font-family: 'PT serif', serif;
+    color: white;
+    margin: auto;
+    font-size: 1em;
+    padding: 1em 0 2em 0;
+    max-width: 600px;
+}
+.takeAction p a{
+    border-radius: 12%;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(231, 122, 95);
+    padding: 0.5em;
+    margin: 5%;
+}
+
+section.howItWorks{
+    height: auto;
+    text-align: center;
+    padding: 1em;
+}
+.howItWorks h2{
+    font-family: 'PT serif', serif;
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+.howItWorks ul li{
+    display: inline-block;
+    max-width: 25%;
+    height: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.howItWorks ul li img{
+    max-width: 40%;
+    height: auto;
+    box-sizing: border-box;
+}
+section.Gallery{
+    text-align: center;
+    background-color: rgb(230, 219, 216);
+}
+.Gallery h3{
+    display: inline-block;
+    padding: 1em;
+    font-family: 'PT Serif', serif;
+}
+.Gallery ul{
+    list-style: none;
+    margin: 0 3em;
+}
+.Gallery ul li{
+    display: inline-block;
+    margin: 1rem;
+    width: 30%;
+    border: 0.4rem black solid;
+    vertical-align: middle;
+    background-color: white;
+    
+}
+.Gallery ul li img{
+    padding: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(236, 75, 35);
+    text-align: center;
+}
+footer p{
+    display:inline-block;
+    color: white;
+    padding: 1em 3em;
+}
+footer ul{
+    display: inline-block;
+    width: 20%
+}
+footer ul li{
+    display: inline-block;
+    margin: 2px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    border: #fff solid 0.7px;
+    border-radius: 100%;
+    padding: 0.3em;
+    width: 30%;
+}
